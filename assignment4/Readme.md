@@ -4,6 +4,7 @@
 
 장애물(collision)을 피해 현재 위치에서 타겟 위치로 이동하는 경로를 구하였다. 
 우선 맵을 불러오거나 센서로 맵을 만드는 방법을 배우고, 이를 토대로 장애물 위치를 표시하는 방법을 배웠다. 그리고 graph-search 를 통한 motion planning 을 진행하였다. 
+
 '''
 Motion planning 이란 물체를 source 부터 target destination 까지의 경로를 plan 하는 과정이다. 
 '''
