@@ -1,8 +1,0 @@
-prefix=/home/noidea/catkin_ws/install
-
-Name: roslint
-Description: Description of roslint
-Version: 0.12.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

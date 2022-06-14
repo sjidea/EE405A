@@ -1,8 +1,0 @@
-prefix=/home/noidea/catkin_ws/devel
-
-Name: scan_matching_localizer
-Description: Description of scan_matching_localizer
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
