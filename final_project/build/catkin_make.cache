@@ -1,0 +1,2 @@
+LeGO-LOAM/LeGO-LOAM:LeGO-LOAM/cloud_msgs:beginner_tutorials:eurecarr_vehicle_sim:ndt_omp:test_package
+-DCATKIN_DEVEL_PREFIX=/home/noidea/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/noidea/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noidea/catkin_ws/src/a_star_planner/include/a_star_planner/AStar.hpp
+vector
+-
+functional
+-
+set
+-
+
+/home/noidea/catkin_ws/src/a_star_planner/src/AStar.cpp
+a_star_planner/AStar.hpp
+/home/noidea/catkin_ws/src/a_star_planner/src/a_star_planner/AStar.hpp
+algorithm
+-
+math.h
+-
+iostream
+-
+
