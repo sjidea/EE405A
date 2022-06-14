@@ -17,11 +17,14 @@
 A* 알고리즘은 주어진 출발점에서 타겟 지점까지 가는 최단 경로를 찾는다. Graph-based 알고리즘이 그러듯 grid 가 필요하다. A*는 각 지점에 목표까지의 최단 경로를 추정하는 값인 heuristic 을 지정한다. 따라서 경로를 평가하는 함수인 f(n)은 경로 상의 한 지점까지의 거리(혹은 가중치)인 g(n)과 그 지점부터 목표까지의 추정 값 h(n)의 합으로 나타낼 수 있다. 따라서 가장 작은 f(n)값을 따라가다 보면 목표지점에 도달한다. 이 때 거리를 구하는 방법에는 세 가지가 있다. 출발점과 목표지점까지의 직선거리인 Euclidian, x 축상의 변위와 y 축상의 변위를 더한 Manhattan, 대각선의(diagonal) 거리도 계산한 Octagonal 이 있다. 이번 과제에서는 diagonal 한 움직임을 주지 않았기 때문에 본 코드에서는 Manhattan 방법을 사용했다. 본 과제에서 같은 코드로 heuristic 만 바꾸어 준 결과는 아래에 있다. 큰 차이는 발견하지 못했다.
 
 
-  Eucledian
+> Eucledian
+> <img src= "https://user-images.githubusercontent.com/84902736/173617700-0a8afbeb-355c-4c27-8712-058f2a56aa33.png" />
 
-  Manhattan
+> Manhattan
+> <img src="https://user-images.githubusercontent.com/84902736/173617707-ce4514b9-3082-4622-a457-93f58133ff1d.png" />
 
-  Octagonal
+> Octagonal
+> <img src="https://user-images.githubusercontent.com/84902736/173617716-f9e0f0b6-128c-4f29-97ce-fdf86696cc3e.png" />
 
 
 
