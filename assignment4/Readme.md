@@ -5,9 +5,7 @@
 장애물(collision)을 피해 현재 위치에서 타겟 위치로 이동하는 경로를 구하였다. 
 우선 맵을 불러오거나 센서로 맵을 만드는 방법을 배우고, 이를 토대로 장애물 위치를 표시하는 방법을 배웠다. 그리고 graph-search 를 통한 motion planning 을 진행하였다. 
 
-'''
-Motion planning 이란 물체를 source 부터 target destination 까지의 경로를 plan 하는 과정이다. 
-'''
+> Motion planning 이란 물체를 source 부터 target destination 까지의 경로를 plan 하는 과정이다. 
 
 이번 과제에서는 A* 알고리즘을 사용하여 상하좌우 어디로 이동할지 planning을 하였다. A* 알고리즘은 graph-search 이므로 공간을 단위면적으로 쪼개서 grid 처럼 생각을 했고, 상하좌우로 1 칸씩 이동할 수 있게 했다. 이를 통해 주어진 A_star.cpp 파일의 내장 함수들을 사용하여 경로를 탐색하는 방법을 배웠다. 또한, 이번 과제에서는 장애물 주위에도 장애물이 존재할 수 있는 확률을 주어 보다 안전한 경로를 구상할 수 있게 했다.
 
