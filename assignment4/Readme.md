@@ -30,7 +30,7 @@ A* 알고리즘은 주어진 출발점에서 타겟 지점까지 가는 최단 �
 ### Optional
 
 Collision 에 Gaussian 분포를 적용한 결과는 아래와 같다. 
-> <img src = 
+> <img src="https://user-images.githubusercontent.com/84902736/173617688-fcb3ce6d-6a79-4fe9-9148-d955e8ef7f89.png" />
 
 
 
