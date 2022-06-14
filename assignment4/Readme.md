@@ -27,5 +27,10 @@ A* 알고리즘은 주어진 출발점에서 타겟 지점까지 가는 최단 �
 > <img src="https://user-images.githubusercontent.com/84902736/173617716-f9e0f0b6-128c-4f29-97ce-fdf86696cc3e.png" />
 
 
+### Optional
+
+Collision 에 Gaussian 분포를 적용한 결과는 아래와 같다. 
+> <img src = 
+
 
 
